@@ -1,0 +1,175 @@
+html {
+    background: $rock-pink;
+}
+
+h1 {
+    font-size: 12em;
+    color: $light-pink;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: $light-pink;
+    padding: 0 0 1rem 0;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: $light-pink;
+    padding: 0 0 1rem 0;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 0 1rem 0;
+    margin: 0;
+    color: $light-pink;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover > p {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+.p-2 {
+    padding: 0 $l-size;
+}
+
+.flex-it {
+    display: flex;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.tag {
+    display: block;
+    background: black;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 60px;
+}
+
+.black-pill {
+    background:black;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.spacer {
+    margin-bottom: 10rem;
+}
+
+@media (max-width: 850px) {
+
+    h1 {
+        font-size: 10em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .p-2 {
+        padding: 0 $m-size;
+    }
+
+    .tag {
+        width: 40px;
+    }
+
+}
+
+@media (max-width: 660px) {
+
+    h1 {
+        font-size: 8em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .spacer {
+        margin-bottom: 8em;
+    }
+
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 6em;
+    }
+
+    .spacer {
+        margin-bottom: 5em;
+    }
+}
+
+@media(max-width: 450px){
+
+    h1 {
+        font-size: 5em;
+        padding: 0 0 0.5rem 0;
+    }
+
+    h2 {
+        font-size: 1.1em;
+        padding: 0 0 0.5rem 0;
+    }
+
+    h3 {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0 0 0.5rem 0;
+    }
+
+    p {
+        font-size: 12px;
+        padding: 0 0 0.5rem 0;
+    }
+
+    .black-pill {
+        padding: 1rem;
+    }
+
+    .p-2 {
+        padding: 0 $m-size;
+    }
+
+}

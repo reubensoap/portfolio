@@ -1,0 +1,29 @@
+
+.item {
+    border-bottom: 2px solid darken($light-pink, 25%);
+    margin-bottom: 1rem;
+    background: #3333;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.item-top {
+    justify-content: space-between;
+}
+
+.app-wrapper a:hover > .item {
+    border-bottom: 2px solid $light-pink;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.app-wrapper {
+    padding: 1.5rem;
+}
+
+@media (max-width: 550px) {
+    .app-wrapper {
+        padding: 1.0rem;
+    }
+}
+
