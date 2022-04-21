@@ -10,9 +10,9 @@ class Apps extends React.Component {
             <div className="spacer">
                 <p className="tag">Apps</p>
                 <div className="app-wrapper spacer">
-                    {AppItem('Hollow Checklist', 'React, Firebase, Production')}
-                    {AppItem('Expense - Project', 'React, Firebase,')}
-                    {AppItem('Indecision - Project', 'React, Firebase')}
+                    {AppItem('Hollow Checklist', 'React, Firebase, Production', 'hollowchecklist.com')}
+                    {AppItem('Expense - Project', 'React, Firebase,', 'aqueous-wave-07134.herokuapp.com')}
+                    {AppItem('Portfolio', 'React', 'reubenpena.link')}
                 </div>
                 <p className="black-pill">
                     Entry Level React Developer, currently developing React projects 
@@ -25,8 +25,8 @@ class Apps extends React.Component {
     }
 }
 
-const AppItem = (title, description) => (
-    <a>
+const AppItem = (title, description, site) => (
+    <a href={`http://${site}`} target="_blank">
         <div className="item">
             <div className="flex-it item-top">
                 <h2>{title}</h2>
