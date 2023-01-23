@@ -10,7 +10,7 @@ class Apps extends React.Component {
             <div className="spacer">
                 <p className="tag">Apps</p>
                 <div className="app-wrapper spacer">
-                    {AppItem('Hollow Knight Tracker', 'React Native, React Redux, Production', 'https://play.google.com/store/apps/details?id=com.reubencode117.hollowknighttracker')}
+                    {AppItem('Hollow Knight Tracker', 'React Native, React Redux, Production', 'play.google.com/store/apps/details?id=com.reubencode117.hollowknighttracker')}
                     {AppItem('Hollow Checklist', 'React, Firebase, Production', 'hollowchecklist.com')}
                     {AppItem('Expense - Project', 'React, Firebase,', 'aqueous-wave-07134.herokuapp.com')}
                     {AppItem('Portfolio', 'React', 'reubenpena.link')}
