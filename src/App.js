@@ -6,6 +6,7 @@ import './styles/styles.scss'
 import Dashboard from './components/DashboardComponent';
 import ErrorComponent from './components/ErrorComponent';
 import Header from './components/HeaderComponent';
+import privacyPolicy from './components/privacyPolicy';
 
 
 const MainComponent = () => (
@@ -14,6 +15,7 @@ const MainComponent = () => (
             <div className="p-2 max-width">
                 <Switch>
                     <Route path="/" component={Dashboard} exact={true} />
+                    <Route path="/privacy" component={privacyPolicy}/>
                     <Route component={ErrorComponent} />
                 </Switch>
             </div>

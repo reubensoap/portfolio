@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 class Header extends React.Component {
     constructor(props) {
@@ -24,6 +25,7 @@ class Header extends React.Component {
                         <div className="flex-it body-nav">
                             <a target="_blank" href="https://github.com/reubensoap"><p>Github</p></a>
                             <a target="_blank" href="https://www.linkedin.com/in/reuben-pena/"><p>LinkedIn</p></a>
+                            <NavLink to="/privacy"><p>Privacy Policy</p></NavLink>
                         </div>
                     </div>
                 </div>
