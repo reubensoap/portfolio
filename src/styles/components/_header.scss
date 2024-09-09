@@ -15,7 +15,7 @@
 }
 
 .sub-header-wrapper {
-    justify-content: space-between;
+    
 }
 
 .sub-header-wrapper > div {
@@ -25,6 +25,11 @@
 .body-nav a {
     margin-right: 1rem;
 }
+
+.mainImage {
+    width: 500px;
+    height: 500px;
+  }
 
 @media (max-width: 550px) {
     .main-text {
